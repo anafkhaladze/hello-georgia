@@ -67,7 +67,7 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-/* main page */
+/* main page / section 1*/
 
 .hero-section{
     position: relative;
@@ -179,3 +179,78 @@ section .section-container{
     color: #333333;
     margin-top: 15px;
 }
+
+/* footer */
+
+.footer-box{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.socials h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.socials img{
+    width: 30px;
+    margin: 20px;
+}
+
+.tours h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.tours ul li{
+    font-size: 18px;
+    font-weight: 200px;
+    margin: 15px;
+}
+
+.tours ul li a{
+    color: #444444;
+}
+
+.tours ul li a:hover{
+    color: #111111;
+}
+
+.location h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;   
+}
+
+.location ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.location ul li {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 8px;
+}
+  
+.location ul li img {
+    width: 40px; 
+    height: auto;
+}
+  
+.location ul li a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location ul li a:hover{
+    color: #111111;
+}
+
