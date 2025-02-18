@@ -186,7 +186,6 @@ section .section-container{
     background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
-    margin: 30px;
 }
 
 .socials h3 {
