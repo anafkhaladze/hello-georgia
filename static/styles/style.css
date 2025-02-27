@@ -621,3 +621,132 @@ button:hover {
     font-size: 20px;
     color: #111111;
 }
+
+/* mtskheta-mtianeti */
+.mtskheta-mtianeti-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 71%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+.about-mtskheta-mtianeti h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-mtskheta-mtianeti p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+.mtskheta-mtianeti-destinations h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.mtskheta-mtianeti-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 60px;
+    margin-bottom: 70px;
+    margin: 50px;
+}
+  
+.mtskheta-mtianeti-nature {
+    background-color: #f0e6d2;
+    border: 2px solid #ecdbba;
+    box-shadow: 10px 10px  #ecdbba;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.mtskheta-mtianeti-nature img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.mtskheta-mtianeti-nature p{
+    margin: 20px;
+    font-size: 20px;
+    color: #111111;
+}
+
+/* racha */
+.racha-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 71%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+.about-racha h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-racha p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+.racha-destinations h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.racha-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 60px;
+    margin-bottom: 70px;
+    margin: 50px;
+}
+  
+.racha-nature {
+    background-color: #f0e6d2;
+    border: 2px solid #ecdbba;
+    box-shadow: 10px 10px  #ecdbba;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.racha-nature img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.racha-nature p{
+    margin: 20px;
+    font-size: 20px;
+    color: #111111;
+}
+
