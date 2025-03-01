@@ -31,7 +31,6 @@ header{
 .logo img{
     display: flex;
     justify-content: space-around;
-    
     width: 120px;
     height: 100px;
 }
@@ -366,6 +365,489 @@ button:hover {
     color: #111111;
 }
 
+/* adjara destinations-kintrishi */
+.kintrishi-hero-text h6{
+    position: absolute;
+    top: 46%;
+    left: 73%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+.secondary-nav{
+    display: flex;
+    align-items: center;
+}
+
+.secondary-nav nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    flex-grow: 1;
+}
+  
+.secondary-nav nav ul {
+    display: flex;
+}
+  
+.secondary-nav nav ul li {
+    margin-right: 50px;
+}
+  
+.secondary-nav nav ul li a {
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: "Playfair Display", serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+.secondary-nav nav ul li a:hover{
+    color: teal;
+}
+
+.about-kintrishi h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-kintrishi h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-kintrishi p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+.map h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.map iframe{
+    margin: 20px;
+    width: 1300px;
+    height: 600px;
+}
+
+/* batumi botanical garden */
+.batumi-botanical-garden-hero-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.batumi-botanical-garden-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+
+.about-batumi-botanical-garden h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-batumi-botanical-garden h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-batumi-botanical-garden p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* makhuntseti watefall */
+.Makhuntseti-Waterfall-hero-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Makhuntseti-Waterfall-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+
+.about-Makhuntseti-Waterfall h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-Makhuntseti-Waterfall h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-Makhuntseti-Waterfall p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* green lake */
+.Green-Lake-hero-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Green-Lake-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+
+.about-Green-Lake h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-Green-Lake h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 400px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-Green-Lake p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* gonio fortress */
+.Gonio-Fortress-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Gonio-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-Gonio-Fortress h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-Gonio-Fortress h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-Gonio-Fortress p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* petra fortress */
+.Petra-Fortress-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Petra-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-Petra-Fortress h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-Petra-Fortress h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-Petra-Fortress p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* Khikhani fortress */
+.Khikhani-Fortress-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Khikhani-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-Khikhani-Fortress h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-Khikhani-Fortress h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 470px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-Khikhani-Fortress p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* kaviani fortress */
+.kaviani-Fortress-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.kaviani-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-kaviani-Fortress h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-kaviani-Fortress h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 470px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-kaviani-Fortress p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* gonio */
+.gonio-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.gonio-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-gonio h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-gonio h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-gonio p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* batumi */
+.batumi-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.batumi-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-batumi h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-sarpi h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-batumi p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* sarpi */
+.sarpi-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.sarpi-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-sarpi h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-sarpi p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* kobuleti */
+.kobuleti-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.kobuleti-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-kobuleti h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-kobuleti p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
 /* guria */
 .guria-hero-text{
     position: absolute;
@@ -623,13 +1105,18 @@ button:hover {
 }
 
 /* mtskheta-mtianeti */
-.mtskheta-mtianeti-hero-text{
+.mtskheta-mtianeti-hero-text {
     position: absolute;
-    top: 44%;
-    left: 71%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: aliceblue;
-    transform: translate(-150%, -50%);
+}
+
+.mtskheta-mtianeti-hero-text h6 {
     font-size: 90px;
+    margin: 0;
 }
 
 .about-mtskheta-mtianeti h3{
@@ -690,7 +1177,7 @@ button:hover {
 .racha-hero-text{
     position: absolute;
     top: 44%;
-    left: 71%;
+    left: 57%;
     color: aliceblue;
     transform: translate(-150%, -50%);
     font-size: 90px;
@@ -749,4 +1236,3 @@ button:hover {
     font-size: 20px;
     color: #111111;
 }
-
