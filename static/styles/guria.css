@@ -1,8 +1,8 @@
 /* guria */
 .guria-hero-text{
     position: absolute;
-    top: 44%;
-    left: 55%;
+    top: 55%;
+    left: 58%;
     color: aliceblue;
     transform: translate(-150%, -50%);
     font-size: 90px;
@@ -11,8 +11,8 @@
 /* guria destinations-bakhmaro */
 .bakhmaro-hero-text{
     position: absolute;
-    top: 44%;
-    left: 65%;
+    top: 55%;
+    left: 68%;
     color: aliceblue;
     transform: translate(-150%, -50%);
     font-size: 90px;
@@ -21,7 +21,7 @@
 /* gomis mta */
 .gomis-mta-hero-text {
     position: absolute;
-    top: 43%;
+    top: 55%;
     left: 48%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -36,7 +36,7 @@
 /* lake jaji */
 .lake-jaji-hero-text {
     position: absolute;
-    top: 43%;
+    top: 55%;
     left: 48%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -51,7 +51,7 @@
 /* chinchao lake */
 .chinchao-lake-hero-text {
     position: absolute;
-    top: 43%;
+    top: 55%;
     left: 48%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -76,14 +76,4 @@
 .atchi-church-hero-text h6 {
     font-size: 90px;
     margin: 0;
-}
-
-/* imereti */
-.imereti-hero-text{
-    position: absolute;
-    top: 44%;
-    left: 60%;
-    color: aliceblue;
-    transform: translate(-150%, -50%);
-    font-size: 90px;
 }
