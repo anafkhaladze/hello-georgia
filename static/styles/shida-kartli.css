@@ -1,0 +1,9 @@
+/* shida-kartli */
+.shida-kartli-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 71%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}

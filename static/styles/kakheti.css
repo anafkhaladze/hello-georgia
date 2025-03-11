@@ -1,0 +1,9 @@
+/* kakheti */
+.kakheti-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 60%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}

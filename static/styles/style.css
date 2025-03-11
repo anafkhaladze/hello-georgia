@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header styles */
+
+header{
+    background-color: #f4f4f4;
+}
+
+.inner-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+  
+nav ul {
+    display: flex;
+}
+  
+nav ul li {
+    margin-right: 50px;
+}
+  
+nav ul li a {
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: "Playfair Display", serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #879fac;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer-box{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.socials img{
+    width: 30px;
+    margin: 20px;
+}
+
+.tours h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.tours ul li{
+    font-size: 18px;
+    font-weight: 200px;
+    margin: 15px;
+}
+
+.tours ul li a{
+    color: #444444;
+}
+
+.tours ul li a:hover{
+    color: #111111;
+}
+
+.location h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;   
+}
+
+.location ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.location ul li {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 8px;
+}
+  
+.location ul li img {
+    width: 25px; 
+    height: auto;
+}
+  
+.location ul li a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location ul li a:hover{
+    color: #111111;
+}
+
+/* about */
+.about h3{
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.about p{
+    margin: 30px;
+    font-size: 18px;
+}
+
+/* destinations */
+.destinations h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 60px;
+    margin-bottom: 70px;
+    margin: 50px;
+}
+  
+.nature {
+    background-color: #f0e6d2;
+    border: 2px solid #ecdbba;
+    box-shadow: 10px 10px  #ecdbba;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.nature img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.nature p{
+    margin: 20px;
+    font-size: 20px;
+    color: #111111;
+}

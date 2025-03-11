@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/sign-up.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <img src="../images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="active">
+                            <a href="../pages/login.html">LOG IN/SIGN UP</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="sign-up-main">
+      <div class="form-container">
+        <h2>Sign up</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Your Name" />
+  
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email" />
+  
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter Your Password" />
+  
+          <label>Gender:</label>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="gender" value="male" />
+              Male
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" />
+              Female
+            </label>
+          </div>
+          <input type="submit" value="Sign Up" />
+        </form>
+        <p>
+          Already have an account?
+          <a href="#">Sign in</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+        <div class="footer-box">
+            <div class="socials">
+                <h3>Socials</h3>
+              <a href="#">
+                <img src="../images/instagram.png" alt="instagram" />
+              </a>
+              <a href="#">
+                <img src="../images/facebook.png" alt="facebook" />
+              </a>
+              <a href="#">
+                <img
+                  src="../images/tik-tok.png"
+                  alt="tik-tok" />
+              </a>
+            </div>
+
+            <!-- tours -->
+          <div class="tours">
+            <h3>Tours</h3>
+            <ul>
+              <li>
+                <a href="#">Individual Tours</a>
+              </li>
+              <li>
+                <a href="#">Group Tours</a>
+              </li>
+              <li>
+                <a href="#">Events</a>
+              </li>
+            </ul>
+            </div>
+
+            <!-- location -->
+            <div class="location">
+                <h3>Location</h3>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="../images/location.png" alt="location" />
+                    Simon Janashia 26, Tbilisi
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../images/phone.png" alt="phone" />
+                    +995 512 34 56 78
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../images/mail.png" alt="email" />
+                    hellogeorgia@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </footer>
+</body>
+</html>

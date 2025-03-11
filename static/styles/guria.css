@@ -1,0 +1,166 @@
+/* guria */
+.guria-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 55%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+/* guria destinations-bakhmaro */
+.bakhmaro-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 65%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+.about-bakhmaro h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-bakhmaro h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 250px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-bakhmaro p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* gomis mta */
+.gomis-mta-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.gomis-mta-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-gomis-mta h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-gomis-mta h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 400px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-gomis-mta p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* gomis mta */
+.lake-jaji-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.lake-jaji-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-jaji-lake h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-jaji-lake h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 450px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-jaji-lake p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* chinchao lake */
+.chinchao-lake-hero-text {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.chinchao-lake-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.about-chinchao-lake h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+.about-chinchao-lake h5{
+    font-size: 20px;
+    background-color: teal;
+    width: 400px;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.about-chinchao-lake p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+    margin: 25px;
+}
+
+/* imereti */
+.imereti-hero-text{
+    position: absolute;
+    top: 44%;
+    left: 60%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}

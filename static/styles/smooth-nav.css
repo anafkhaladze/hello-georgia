@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.secondary-nav{
+    display: flex;
+    align-items: center;
+}
+
+.secondary-nav nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    flex-grow: 1;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+  
+.secondary-nav nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+  
+.secondary-nav nav ul li {
+    margin: 0 15px;
+}
+  
+.secondary-nav nav ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+.secondary-nav nav ul li a:hover{
+    color: #713B1F;
+}
+
+
+/* about */
+#ABOUT h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+#ABOUT h5{
+    font-size: 20px;
+    background-color: #713B1F;
+    width: 700px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+#ABOUT h5:hover{
+    background-color: #B7723B;
+}
+
+#ABOUT p{
+    font-size: 18px;
+    font-weight: 200;
+    margin: 25px;
+}
+
+/* pricing */
+#PRICING{
+    margin: 25px;
+}
+
+#PRICING h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#PRICING p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+#PRICING ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#PRICING li {
+    margin-bottom: 8px;
+}
+
+/* map */
+#MAP{
+    margin: 25px;
+}
+
+#MAP h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#MAP iframe{
+    width: 1300px;
+    height: 600px;
+}
+
+/* questions */
+#QUESTIONS{
+    margin: 25px;
+}
+
+#QUESTIONS h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#QUESTIONS .faq {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+  
+#QUESTIONS .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.answer {
+    display: none;
+    margin-top: 5px;
+}
+
+/* reviews */
+#REVIEWS{
+    margin: 25px;
+}
+
+.review h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.review{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.review h4{
+    background-color: #713B1F;
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.review h4:hover{
+    background-color: #ffffff;
+    border: 4px solid #B7723B;
+    border-radius: 10px;
+    color: #713B1F;
+}
+
+.review-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 600px;
+    border: 0.5px solid #333333;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.stars {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+
+.review-star {
+    width: 18px;
+    height: 18px;
+}
+
+.review-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* no question styling */
+.question-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.login-message {
+    font-size: 16px;
+    color: #333333;
+}
+
+.ask-button {
+    background-color: #713B1F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ask-button:hover {
+    background-color: #B7723B;
+}
+
+/* no review   styling*/
+.review-section {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.review-icon {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.review-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-section p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.review-btn {
+    background-color: #713B1F;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.review-btn:hover {
+    background-color: #B7723B;
+}
+
+/* hotels */
+#HOTELS{
+    margin: 20px;
+}
+
+#HOTELS h2{
+font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.hotels-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 60px;
+    margin-bottom: 70px;
+    margin: 50px;
+}
+  
+.hotels {
+    background-color: #f0e6d2;
+    border: 2px solid #ecdbba;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.hotels img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.hotels p{
+    margin: 20px;
+    font-size: 20px;
+    color: #111111;
+}

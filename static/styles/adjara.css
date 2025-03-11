@@ -1,0 +1,186 @@
+/* adjara */
+.hero-text h6{
+    position: absolute;
+    top: 56%;
+    left: 71%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+/* adjara destinations-kintrishi */
+.kintrishi-hero-text h6{
+    position: absolute;
+    top: 56%;
+    left: 78%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+/* batumi botanical garden */
+.batumi-botanical-garden-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.batumi-botanical-garden-hero-text h6 {
+    font-size: 70px;
+    margin: 0;
+}
+
+/* makhuntseti watefall */
+.Makhuntseti-Waterfall-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Makhuntseti-Waterfall-hero-text h6 {
+    font-size: 70px;
+    margin: 0;
+}
+
+
+/* green lake */
+.Green-Lake-hero-text {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Green-Lake-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+
+/* gonio fortress */
+.Gonio-Fortress-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Gonio-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* petra fortress */
+.Petra-Fortress-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Petra-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* Khikhani fortress */
+.Khikhani-Fortress-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Khikhani-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* kaviani fortress */
+.kaviani-Fortress-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.kaviani-Fortress-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* gonio */
+.gonio-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.gonio-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* batumi */
+.batumi-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.batumi-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* sarpi */
+.sarpi-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.sarpi-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
+
+/* kobuleti */
+.kobuleti-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.kobuleti-hero-text h6 {
+    font-size: 90px;
+    margin: 0;
+}
