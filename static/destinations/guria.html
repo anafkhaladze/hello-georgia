@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/guria.css">
     <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet" href="../styles/smooth-nav.css">
     <title>Guria</title>
 </head>
 <body>
@@ -65,12 +66,40 @@
           <div class="guria-hero-text">
               <h6>Guria</h6>
           </div>
+
+          <div class="secondary-nav">
+            <nav>
+              <ul>
+                <li>
+                    <a href="#ABOUT">ABOUT</a>
+                </li>
+                <li>
+                  <a href="#DESTIONATIONS">DESTIONATIONS</a>
+                </li>
+                <li>
+                    <a href="#TOURS">TOURS</a>
+                </li>
+                <li>
+                    <a href="#MUNICIPALITIES">MUNICIPALITIES</a>
+                </li>
+                <li>
+                  <a href="#MAP">MAP</a>
+                </li>
+                <li>
+                  <a href="#QUESTIONS">QUESTIONS</a>
+                </li>
+                <li>
+                  <a href="#REVIEW">REVIEWS</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
       </section>
 
       <!-- about guria -->
 
       <section>
-        <div class="about">
+        <div id="ABOUT">
             <h3>About Guria</h3>
             <p>Guria region is situated in western Georgia and it includes historical-geographic province, 
             the area of Guria. It has an ancient history and a beautiful, hidden nature in green. 
@@ -101,7 +130,7 @@
 
       <!-- destinations -->
       <section>
-        <div class="destinations">
+        <div id="DESTIONATIONS">
             <h2>Nature</h2>
 
             <div class="grid">
@@ -197,6 +226,80 @@
           </div>
         </div>
       </section>
+      <hr>
+
+      <!-- tours -->
+      <section id="TOURS">
+        <h2>TOURS</h2>
+          <div class="tours-grid">
+            <div class="tour">
+              <img src="../images/guria/gomi-mountain.jpg" alt="tour1">
+              <p>Gomis Mta - Dendrological Park</p>
+            </div>
+    
+            <div class="tour">
+              <img src="../images/guria/Boat-ride-on-paliastom-lake.jpg" alt="tour2">
+              <p>Boat ride on Paliastom Lake</p>
+            </div>
+    
+            <div class="tour">
+              <img src="../images/guria/jaji-lake1.jpg" alt="tour3">
+              <p>Horse riding tour to Jaji lake</p>
+            </div>
+      </section>
+      <hr>
+
+      <section id="MUNICIPALITIES">
+        <h2>Municipalities</h2>
+          <div class="municipalities-grid">
+            <div class="municipalities">
+              <img src="../images/guria/chokhatauri.jpg" class="municipalitie" alt="chokhatauri">
+              <img src="../images/guria/choxatauri-gerbi.png" class="gerbi" alt="chokhatauri-gerbi">
+              <p>Chokhatauri</p>
+            </div>
+
+            <div class="municipalities">
+              <img src="../images/guria/Lanchkhuti.jpg" class="municipalitie" alt="Lanchkhuti">
+              <img src="../images/guria/Lanchkhuti-gerbi.png" class="gerbi" alt="Lanchkhuti-gerbi">
+              <p>Lanchkhuti</p>
+            </div>
+
+            <div class="municipalities">
+              <img src="../images/guria/ozurgeti.jpg" class="municipalitie" alt="ozurgeti">
+              <img src="../images/guria/ozurgeti-gerbi.png" class="gerbi" alt="ozurgeti-gerbi">
+              <p>Ozurgeti</p>
+            </div>
+          </div>
+      </section>
+      <hr>
+
+      <section id="MAP">
+        <h4>MAP</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379674.7001367233!2d41.86073141623991!3d41.9743309933567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405d0f773ccd4c3f%3A0x1dd7562fa7f27fd3!2z4YOS4YOj4YOg4YOY4YOY4YOhIOGDm-GDruGDkOGDoOGDlA!5e0!3m2!1ska!2sge!4v1741791178067!5m2!1ska!2sge"></iframe>
+      </section>
+      <hr>
+
+      <section id="QUESTIONS">
+        <h3>QUESTIONS</h3>
+        <div class="question-section">
+          <p class="login-message">Please login to ask a question</p>
+          <h4 class="ask-button">+ ASK A QUESTION</h4>
+        </div>  
+      </section>
+      <hr>
+
+      <section id="REVIEWS">
+        <div class="review-section">
+          <img src="../images/review.png" class="review-icon" alt="Review Icon">
+          <h2>Write review and rate destination</h2>
+          <p>
+              Help other travelers use your experience.<br>
+              Review this destination, share your thoughts, impressions, pros and cons.<br>
+              Let's make traveling easier than ever.
+          </p>
+          <h4 class="review-btn">WRITE A REVIEW</h4>
+        </div>        
+      </section>
     </main>
 
 
@@ -260,5 +363,6 @@
           </div>
       </footer>
       <script src="../script/script.js"></script>
+      <script src="../script/smooth-nav.js"></script>
 </body>
 </html>
