@@ -7,3 +7,122 @@
     transform: translate(-150%, -50%);
     font-size: 90px;
 }
+
+/* okatse cayon */
+.okatse-canyon-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+/* kinchkha waterfall */
+.kinchkha-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+}
+
+/* gabzaruli lake */
+.gabzaruli-lake-hero-text{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+
+/* lomina */
+.lomina-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+/* gelati */
+.gelati-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+/* bagrati */
+.bagrati-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    color: aliceblue;
+    transform: translate(-150%, -50%);
+    font-size: 90px;
+}
+
+/* motsameta */
+.motsameta-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+/* katskhi-pillar */
+.katskhi-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+}
+
+/* sairme */
+.sairme-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+
+/* tskaltubo */
+.tskaltubo-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+
+/* terjola */
+.terjola-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+
+/* samtredia */
+.samtredia-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
