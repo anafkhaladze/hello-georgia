@@ -70,13 +70,3 @@
 .form-container input[type="submit"]:hover {
     background-color: #111111;
 }
-  
-.form-container p {
-    color: #666;
-    font-size: 16px;
-}
-  
-.form-container a {
-    color: #6b73ff;
-    text-decoration: none;
-}
