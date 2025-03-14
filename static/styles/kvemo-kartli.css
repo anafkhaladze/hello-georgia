@@ -1,9 +1,63 @@
 /* kvemo-kartli */
 .kvemo-kartli-hero-text{
     position: absolute;
-    top: 44%;
-    left: 71%;
+    top: 55%;
+    left: 50%;
     color: aliceblue;
-    transform: translate(-150%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.algeti-national-park-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.bolnisi-sioni-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.manglisi-sioni-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.pitareti-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.samshvilde-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.dashbashi-canyon-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
     font-size: 90px;
 }
