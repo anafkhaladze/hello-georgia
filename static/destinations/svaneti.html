@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/svaneti.css">
     <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet" href="../styles/smooth-nav.css">
     <title>Svaneti</title>
 </head>
 <body>
@@ -62,11 +63,36 @@
             <div class="svaneti-hero-text">
                 <h6>Svaneti</h6>
             </div>
+
+            <div class="secondary-nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#ABOUT">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#DESTINATIONS">DESTINATIONS</a>
+                        </li>
+                        <li>
+                            <a href="#MUNICIPALITIES">MUNICIPALITIES</a>
+                        </li>
+                        <li>
+                            <a href="#MAP">MAP</a>
+                        </li>
+                        <li>
+                            <a href="#QUESTIONS">QUESTIONS</a>
+                        </li>
+                        <li>
+                            <a href="#REVIEW">REVIEW</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </section>
 
         <!-- about mtskheta mtianeti -->
 
-        <section>
+        <section id="ABOUT">
             <div class="about">
                 <h3>About Svaneti</h3>
                 <p>Svaneti, located in northern western Georgia, is the country's highest mountainous region. 
@@ -208,6 +234,53 @@
                 </div>
             </div>
         </section>
+        <hr>
+
+        <section id="MUNICIPALITIES">
+            <h2>Municipalities</h2>
+            <div class="municipalities-grid">
+                <div class="municipalities">
+                  <img src="../images/svaneti/lentekhi.jpg" class="municipalitie" alt="lentekhi">
+                  <img src="../images/svaneti/lentekhi-gerbi.jpg" class="gerbi" alt="lentekhi-gerbi">
+                  <p>lentekhi</p>
+                </div>
+    
+                <div class="municipalities">
+                  <img src="../images/svaneti/svaneti1.jpg" class="municipalitie" alt="mestia">
+                  <img src="../images/svaneti/mestia-gerbi.jpg" class="gerbi" alt="mestia-gerbi">
+                  <p>Mestia</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="MAP">
+            <h4>MAP</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751110.739228245!2d41.68967443516109!3d42.660797531735575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405c05fb73394bb9%3A0xfb52e6f667f9e5cf!2z4YOh4YOQ4YOb4YOU4YOS4YOg4YOU4YOa4YOdLeGDluGDlOGDm-GDnSDhg6Hhg5Xhg5Dhg5zhg5Thg5fhg5jhg6Eg4YOb4YOu4YOQ4YOg4YOU!5e0!3m2!1ska!2sge!4v1742128127376!5m2!1ska!2sge"></iframe>
+        </section>
+        <hr>
+
+        <section id="QUESTIONS">
+            <h3>QUESTIONS</h3>
+            <div class="question-section">
+              <p class="login-message">Please login to ask a question</p>
+              <h4 class="ask-button">+ ASK A QUESTION</h4>
+            </div>  
+          </section>
+          <hr>
+    
+          <section id="REVIEWS">
+            <div class="review-section">
+              <img src="../images/review.png" class="review-icon" alt="Review Icon">
+              <h2>Write review and rate destination</h2>
+              <p>
+                  Help other travelers use your experience.<br>
+                  Review this destination, share your thoughts, impressions, pros and cons.<br>
+                  Let's make traveling easier than ever.
+              </p>
+              <h4 class="review-btn">WRITE A REVIEW</h4>
+            </div>        
+          </section>
     </main>
 
     <!-- footer -->
@@ -271,5 +344,6 @@
           </div>
       </footer>
       <script src="../script/script.js"></script>
+      <script src="../script/smooth-nav.js"></script>
 </body>
 </html>

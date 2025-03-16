@@ -1,9 +1,18 @@
 /* racha */
 .racha-hero-text{
     position: absolute;
-    top: 44%;
-    left: 57%;
+    top: 55%;
+    left: 50%;
     color: aliceblue;
-    transform: translate(-150%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.udziro-lake-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
     font-size: 90px;
 }
