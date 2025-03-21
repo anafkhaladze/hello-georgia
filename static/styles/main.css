@@ -12,17 +12,6 @@
     max-height: 600px;
 }
 
-.hero-text{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: aliceblue;
-    font-size: 80px;
-    margin: 0;
-}
-
 /* section 2 */
 
 section .section-container{
