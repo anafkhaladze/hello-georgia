@@ -66,6 +66,7 @@ nav ul li a:hover{
     background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .socials h3 {
@@ -99,10 +100,14 @@ nav ul li a:hover{
     color: #713B1F;
 }
 
+.location{
+    margin: 20px;
+}
+
 .location h3{
     font-size: 30px;
+    margin-bottom: 10px;
     font-weight: bold;
-    margin: 20px;   
 }
 
 .location ul {
@@ -118,7 +123,8 @@ nav ul li a:hover{
 }
   
 .location ul li img {
-    width: 25px; 
+    width: 25px;
+    margin-right: 5px; 
     height: auto;
 }
   
