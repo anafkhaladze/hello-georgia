@@ -1,4 +1,10 @@
 /* shida-kartli */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .shida-kartli-hero-text{
     position: absolute;
     top: 55%;

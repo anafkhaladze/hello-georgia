@@ -1,4 +1,10 @@
 /* samtskhe javakheti */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .Samtskhe-Javakheti-hero-text{
     position: absolute;
     top: 55%;

@@ -1,4 +1,10 @@
 /* samegrelo */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .samegrelo-hero-text{
     position: absolute;
     top: 55%;

@@ -1,4 +1,10 @@
 /* kakheti */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .kakheti-hero-text{
     position: absolute;
     top: 54%;

@@ -1,4 +1,10 @@
 /* adjara */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .hero-text h6{
     position: absolute;
     top: 56%;

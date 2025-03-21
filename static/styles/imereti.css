@@ -1,4 +1,10 @@
 /* imereti */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .imereti-hero-text{
     position: absolute;
     top: 55%;
