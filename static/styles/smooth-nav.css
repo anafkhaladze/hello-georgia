@@ -78,14 +78,22 @@ html {
 }
 
 #DESTINATIONS h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
-    margin-bottom: 30px;
-    text-align: center;
+    margin: 30px;
+    color: #111111;
+}
+
+#DESTINATIONS h2:hover{
+    color: #000000;
+    background-color: #B7723B;
+    width: 400px;
+    border: 1px solid #713B1F;
+    border-radius: 8px;
 }
 
 .destinations h2{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     font-family: "Playfair Display", serif;
     display: flex;
@@ -124,6 +132,27 @@ html {
     color: #111111;
 }
 
+/* For tablets */
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* pricing */
 #PRICING{
     margin: 25px;
@@ -152,15 +181,10 @@ html {
 }
 
 /* map */
-#MAP{
-    margin: 25px;
-}
-
 #MAP h4{
     font-size: 30px;
     font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin: 30px;
 }
 
 #MAP iframe{
@@ -398,6 +422,27 @@ font-size: 25px;
     color: #111111;
 }
 
+/* For tablets */
+@media (max-width: 1024px) {
+    .hotels-grid {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+    .hotels-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .hotels-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* MUNICIPALITIES */
 #MUNICIPALITIES{
     margin: 20px;
@@ -454,6 +499,27 @@ font-size: 25px;
     margin-top: 20px;
 }
 
+/* For tablets */
+@media (max-width: 1024px) {
+    .municipalities-grid {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+    .municipalities-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .municipalities-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* tours */
 #TOURS{
     margin: 20px;
@@ -491,4 +557,25 @@ font-size: 25px;
     margin: 20px;
     font-size: 20px;
     color: #111111;
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+    .tours-grid {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+    .tours-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .tours-grid {
+        grid-template-columns: 1fr;
+    }
 }

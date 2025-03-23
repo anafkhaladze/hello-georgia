@@ -1,8 +1,12 @@
 /* racha */
 body{
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
+    width: 100%;
     height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .racha-hero-text{
@@ -15,6 +19,33 @@ body{
 }
 
 .udziro-lake-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.sasvano-lake-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.sakinule-cave-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.nikortsminda-hero-text{
     position: absolute;
     top: 55%;
     left: 50%;
