@@ -14,54 +14,75 @@
 
 /* section 2 */
 
-section .section-container{
+section .section-container {
     width: 100%;
 }
 
 .section-container h3 {
     font-size: 40px;
     font-family: "Montserrat", serif;
-    color: #444444 ;
+    color: #444444;
     font-weight: 600;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
-  
+
 .destination-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 60px;
-    margin-bottom: 70px;
-    margin: 50px;
-}
-  
-.destination-box {
-    margin: 0 auto;
-    position: relative;
+    gap: 50px;
+    padding: 50px;
 }
 
-.destination-box img{
-    width: 300px;
+/* For tablets */
+@media (max-width: 1024px) {
+    .destination-grid {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+    .destination-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .destination-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.destination-box {
+    position: relative;
+    text-align: center;
+}
+
+.destination-box img {
+    width: 100%;
+    max-width: 300px;
     height: 250px;
-    transition: 0.5s ease-in-out;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
 }
 
 .destination-box img:hover {
     transform: scale(1.1);
 }
 
-
-.name{
+.name {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.name h4{
+.name h4 {
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     font-family: "Roboto", serif;
     color: #333333;
     margin-top: 15px;
