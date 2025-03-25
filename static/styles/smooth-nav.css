@@ -84,14 +84,6 @@ html {
     color: #111111;
 }
 
-#DESTINATIONS h2:hover{
-    color: #000000;
-    background-color: #B7723B;
-    width: 400px;
-    border: 1px solid #713B1F;
-    border-radius: 8px;
-}
-
 .destinations h2{
     font-size: 50px;
     font-weight: 800;
@@ -413,6 +405,7 @@ font-size: 25px;
 
 .hotels img{
     width: 80%;
+    height: 150px;
     margin-top: 20px;
     border-radius: 8px;
 }

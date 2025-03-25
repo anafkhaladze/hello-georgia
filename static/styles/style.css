@@ -66,12 +66,10 @@ nav ul li a:hover{
 }
 
 /* footer */
-
 .footer-box{
     background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
-    margin: 20px;
 }
 
 .socials h3 {
