@@ -34,27 +34,6 @@ section .section-container {
     padding: 50px;
 }
 
-/* For tablets */
-@media (max-width: 1024px) {
-    .destination-grid {
-        grid-template-columns: 1fr 1fr 1fr; 
-    }
-}
-
-/* For mobile */
-@media (max-width: 768px) {
-    .destination-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-/* For very small screens */
-@media (max-width: 480px) {
-    .destination-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .destination-box {
     position: relative;
     text-align: center;
@@ -84,4 +63,26 @@ section .section-container {
     font-family: "Roboto", serif;
     color: #333333;
     margin-top: 15px;
+}
+
+/* Responsive Grid for Devices */    
+/* iPads (9th & 10th gen), iPad Pro 11" */
+@media (max-width: 1024px) {
+    .destination-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
+@media (max-width: 768px) {
+    .destination-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .destination-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
 }

@@ -132,24 +132,25 @@ html {
     color: #111111;
 }
 
-/* For tablets */
+/* Responsive Grid for Devices */    
+/* iPads (9th & 10th gen), iPad Pro 11" */
 @media (max-width: 1024px) {
     .grid {
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/* For mobile */
+/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
 @media (max-width: 768px) {
     .grid {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* For very small screens */
+/* Small mobile screens */
 @media (max-width: 480px) {
     .grid {
-        grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -422,24 +423,25 @@ font-size: 25px;
     color: #111111;
 }
 
-/* For tablets */
+/* Responsive Grid for Devices */    
+/* iPads (9th & 10th gen), iPad Pro 11" */
 @media (max-width: 1024px) {
     .hotels-grid {
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/* For mobile */
+/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
 @media (max-width: 768px) {
     .hotels-grid {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* For very small screens */
+/* Small mobile screens */
 @media (max-width: 480px) {
     .hotels-grid {
-        grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -499,24 +501,25 @@ font-size: 25px;
     margin-top: 20px;
 }
 
-/* For tablets */
+/* Responsive Grid for Devices */    
+/* iPads (9th & 10th gen), iPad Pro 11" */
 @media (max-width: 1024px) {
     .municipalities-grid {
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/* For mobile */
+/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
 @media (max-width: 768px) {
     .municipalities-grid {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* For very small screens */
+/* Small mobile screens */
 @media (max-width: 480px) {
     .municipalities-grid {
-        grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -559,23 +562,24 @@ font-size: 25px;
     color: #111111;
 }
 
-/* For tablets */
+/* Responsive Grid for Devices */    
+/* iPads (9th & 10th gen), iPad Pro 11" */
 @media (max-width: 1024px) {
     .tours-grid {
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/* For mobile */
+/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
 @media (max-width: 768px) {
     .tours-grid {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* For very small screens */
+/* Small mobile screens */
 @media (max-width: 480px) {
     .tours-grid {
-        grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
 }
