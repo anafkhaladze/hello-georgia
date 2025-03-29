@@ -22,3 +22,83 @@ body{
     font-size: 90px;
     margin: 0;
 }
+
+.abastumani-hero-text h6{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.borjomi-hero-text h6{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.borjomi-kharagauli-national-park-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.green-monastery-hero-text h6{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.kartsakhi-lake-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.lake-paravani-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.rabati-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.vardzia-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}

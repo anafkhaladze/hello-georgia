@@ -105,8 +105,8 @@ html {
   
 .nature {
     background-color: #f0e6d2;
-    border: 2px solid #ecdbba;
-    box-shadow: 10px 10px  #ecdbba;
+    border: 2px solid #d4c2a8;
+    box-shadow: 4px 4px 10px #a59a8d;
     margin: 20px;
     width: 90%;
     text-align: center;
@@ -114,6 +114,7 @@ html {
 
 .nature img{
     width: 80%;
+    height: 150px;
     margin-top: 20px;
     border-radius: 8px;
 }
@@ -398,6 +399,7 @@ font-size: 25px;
 .hotels {
     background-color: #f0e6d2;
     border: 2px solid #ecdbba;
+    border-radius: 10px;
     margin: 20px;
     width: 90%;
     text-align: center;
@@ -407,7 +409,7 @@ font-size: 25px;
     width: 80%;
     height: 150px;
     margin-top: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .hotels p{
@@ -468,9 +470,10 @@ font-size: 25px;
 
 /* Municipality Image */
 .municipalitie {
-    width: 100%;
-    height: 180px;
-    border-radius: 8px;
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 /* Municipality gerbi */
@@ -545,6 +548,7 @@ font-size: 25px;
 
 .tour img{
     width: 80%;
+    height: 150px;
     margin-top: 20px;
     border-radius: 8px;
 }
