@@ -1,16 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
 /* main page / section 1*/
 .hero-section{
-    position: relative;
     text-align: center;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 .hero-section video{
     width: 100%;
-    height: auto;
-    max-height: 600px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 550px;
 }
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: #111111;
+    text-align: center;
+}
+
+.hero-text h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 2.0;
+    font-family: "Inconsolata", monospace;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.hero-text h2 br {
+    margin-bottom: 10px;
+}
+
+
 
 /* section 2 */
 
