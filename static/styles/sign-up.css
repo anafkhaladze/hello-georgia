@@ -9,20 +9,41 @@ body{
     box-sizing: border-box;
 }
 
+.hero-section{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section video{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    max-height: 650px;
+}
+
+
 .sign-up-main{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
     height: 100vh;
 }
 
 .form-container {
     width: 100%;
+    height: 100%;
     max-width: 400px;
-    background-color: #f4f4f4;
-    padding: 20px;
+    max-height: 450px;
+    background-color: #ebebeb ;
+    border: 2px solid #d6d6d6;
+    box-shadow: 4px 4px 10px #d0d0d0;
+    padding: 30px;
+    margin-top: 60px;
+    margin-right: 90px;
     border-radius: 8px;
     text-align: center;
+    position: absolute;
 }
   
 .form-container h2 {
@@ -35,6 +56,7 @@ body{
 .form-container label {
     display: block;
     text-align: left;
+    margin-bottom: 15px;
 }
   
 .form-container input[type="text"],
@@ -53,9 +75,7 @@ body{
 .form-container input[type="text"]:focus,
 .form-container input[type="email"]:focus,
 .form-container input[type="password"]:focus,
-.form-container select:focus,
-.form-container textarea:focus {
-    border-color: purple;
+.form-container select:focus {
     outline: none;
 }
   
@@ -67,18 +87,22 @@ body{
 }
   
 .form-container input[type="submit"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    background-color: #975b29;
+    background-color: #3e5940;
     color: #fff;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 10px;
-    border: 1px solid #562b15;
+    border: 2px solid #5a7d57;
+    box-shadow: 4px 4px 12px #2c3f30;
     border-radius: 4px;
+    transition: all 0.3s ease-in-out;
 }
   
 .form-container input[type="submit"]:hover {
-    background-color: #713B1F;
+    background-color: #52a045;
+    border-color: #6e8b64;
+    box-shadow: 6px 6px 15px #263629;
 }
