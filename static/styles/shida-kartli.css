@@ -17,3 +17,57 @@ body{
     transform: translate(-50%, -50%);
     font-size: 90px;
 }
+
+.bateti-lake-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.atenis-sioni-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.kvatakhevis-monastery-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+.uplistsikhe-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+.surami-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+.tamari-bridge-hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
