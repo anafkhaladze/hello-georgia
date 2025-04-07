@@ -45,7 +45,7 @@ section .section-container {
 
 .destination-box img {
     width: 100%;
-    max-width: 300px;
+    max-width: 800px;
     height: 250px;
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
@@ -73,20 +73,20 @@ section .section-container {
 /* iPads (9th & 10th gen), iPad Pro 11" */
 @media (max-width: 1024px) {
     .destination-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
 /* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
 @media (max-width: 768px) {
     .destination-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 /* Small mobile screens */
 @media (max-width: 480px) {
     .destination-grid {
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: 1fr;
     }
 }
