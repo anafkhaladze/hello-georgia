@@ -30,33 +30,32 @@
               </li>
             </ul>
           </nav>
-          <div class="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
           <div class="language-switcher">
             <button onclick="setLanguage('en')">EN</button>
             <button onclick="setLanguage('ka')">KA</button>
           </div>
+
+          <button id="burger" aria-label="Toggle menu" aria-expanded="false">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
         </div>
       </div>
     </header>
 
     <main class="sign-up-main">
       <div class="hero-section">
-        <video
-          loop
-          autoplay
-          muted
-          src="../video/sign-up-cover.mp4"
-          type="video/mp4"
-        ></video>
+        <img src="../images/sign-up-cover.jpg" alt="Sign up cover image" />
       </div>
 
-      <div class="form-container">
+      <div
+        class="form-container"
+        role="region"
+        aria-label="Sign up form container"
+      >
         <h2 data-key="sign_up">Sign up</h2>
-        <form>
+        <form autocomplete="off" aria-label="Sign up form">
           <label for="name" data-key="name_label">Name:</label>
           <input
             type="text"
@@ -64,6 +63,7 @@
             name="name"
             data-placeholder="name_placeholder"
             placeholder="Enter Your Name"
+            required
           />
 
           <label for="email" data-key="email_label">Email:</label>
@@ -73,6 +73,7 @@
             name="email"
             data-placeholder="email_placeholder"
             placeholder="Enter Your Email"
+            required
           />
 
           <label for="password" data-key="password_label">Password:</label>
@@ -82,12 +83,17 @@
             name="password"
             data-placeholder="password_placeholder"
             placeholder="Enter Your Password"
+            required
           />
 
           <label data-key="gender">Gender:</label>
-          <div class="radio-group">
+          <div
+            class="radio-group"
+            role="radiogroup"
+            aria-labelledby="gender-label"
+          >
             <label>
-              <input type="radio" name="gender" value="male" />
+              <input type="radio" name="gender" value="male" required />
               <span data-key="male">Male</span>
             </label>
 
