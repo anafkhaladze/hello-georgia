@@ -1,144 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/sign-up.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/sign-up.css" />
     <title>Sign Up</title>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="inner-header">
-        <div class="logo">
-          <a href="../../index.html">
-            <img src="../images/logo.png" alt="logo">
-          </a>
-        </div>
-        <nav id="nav-menu">
-          <ul>
-            <li><a href="../../index.html">HOME</a></li>
-            
-            <li class="active">
-                <a href="./static/pages/login.html">SIGN UP</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="burger">
-          <div></div>
-          <div></div>
-          <div></div>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="inner-header">
+          <div class="logo">
+            <a href="../../index.html">
+              <img src="../images/logo.png" alt="logo" />
+            </a>
+          </div>
+          <nav id="nav-menu">
+            <ul>
+              <li>
+                <a href="../../index.html" data-key="home">HOME</a>
+              </li>
+
+              <li class="active">
+                <a href="./static/pages/login.html" data-key="signup"
+                  >SIGN UP</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="language-switcher">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('ka')">KA</button>
+          </div>
         </div>
       </div>
-    </div>
-</header>      
-    
-    <main class="sign-up-main">
+    </header>
 
+    <main class="sign-up-main">
       <div class="hero-section">
-        <video loop autoplay muted src="../video/sign-up-cover.mp4" type="video/mp4"></video>
-      </div> 
+        <video
+          loop
+          autoplay
+          muted
+          src="../video/sign-up-cover.mp4"
+          type="video/mp4"
+        ></video>
+      </div>
 
       <div class="form-container">
-        <h2>Sign up</h2>
+        <h2 data-key="sign_up">Sign up</h2>
         <form>
-          <label for="name">Name:</label>
+          <label for="name" data-key="name_label">Name:</label>
           <input
             type="text"
             id="name"
             name="name"
-            placeholder="Enter Your Name" />
-  
-          <label for="email">Email:</label>
+            data-placeholder="name_placeholder"
+            placeholder="Enter Your Name"
+          />
+
+          <label for="email" data-key="email_label">Email:</label>
           <input
             type="email"
             id="email"
             name="email"
-            placeholder="Enter Your Email" />
-  
-          <label for="password">Password:</label>
+            data-placeholder="email_placeholder"
+            placeholder="Enter Your Email"
+          />
+
+          <label for="password" data-key="password_label">Password:</label>
           <input
             type="password"
             id="password"
             name="password"
-            placeholder="Enter Your Password" />
-  
-          <label>Gender:</label>
+            data-placeholder="password_placeholder"
+            placeholder="Enter Your Password"
+          />
+
+          <label data-key="gender">Gender:</label>
           <div class="radio-group">
             <label>
               <input type="radio" name="gender" value="male" />
-              Male
+              <span data-key="male">Male</span>
             </label>
+
             <label>
               <input type="radio" name="gender" value="female" />
-              Female
+              <span data-key="female">Female</span>
             </label>
           </div>
-          <input type="submit" value="Sign Up" />
+          <input type="submit" data-key="submit" value="Sign Up" />
         </form>
       </div>
     </main>
 
     <footer>
-        <div class="footer-box">
-            <div class="socials">
-                <h3>Socials</h3>
-              <a href="#">
-                <img src="../images/instagram.png" alt="instagram" />
-              </a>
-              <a href="#">
-                <img src="../images/facebook.png" alt="facebook" />
-              </a>
-              <a href="#">
-                <img
-                  src="../images/tik-tok.png"
-                  alt="tik-tok" />
-              </a>
-            </div>
+      <div class="footer-box">
+        <div class="socials">
+          <h3 data-key="socials">Socials</h3>
+          <a href="#">
+            <img src="../images/instagram.png" alt="instagram" />
+          </a>
+          <a href="#">
+            <img src="../images/facebook.png" alt="facebook" />
+          </a>
+          <a href="#">
+            <img src="../images/tik-tok.png" alt="tik-tok" />
+          </a>
+        </div>
 
-            <!-- tours -->
-          <div class="tours">
-            <h3>Tours</h3>
-            <ul>
-              <li>
-                <a href="#">Individual Tours</a>
-              </li>
-              <li>
-                <a href="#">Group Tours</a>
-              </li>
-              <li>
-                <a href="#">Events</a>
-              </li>
-            </ul>
-            </div>
+        <!-- tours -->
+        <div class="tours">
+          <h3 data-key="tours">Tours</h3>
+          <ul>
+            <li>
+              <a href="#" data-key="individual_tours">Individual Tours</a>
+            </li>
+            <li>
+              <a href="#" data-key="group_tours">Group Tours</a>
+            </li>
+            <li>
+              <a href="#" data-key="events">Events</a>
+            </li>
+          </ul>
+        </div>
 
-            <!-- location -->
-            <div class="location">
-                <h3>Location</h3>
-              <ul>
-                <li>
-                  <a href="#">
-                    <img src="../images/location.png" alt="location" />
-                    Simon Janashia 26, Tbilisi
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="../images/phone.png" alt="phone" />
-                    +995 512 34 56 78
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="../images/mail.png" alt="email" />
-                    hellogeorgia@gmail.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-      </footer>
-</body>
+        <!-- location -->
+        <div class="location">
+          <h3 data-key="location">Location</h3>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="../images/location.png" alt="location" />
+                Simon Janashia 26, Tbilisi
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../images/phone.png" alt="phone" />
+                +995 512 34 56 78
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../images/mail.png" alt="email" />
+                hellogeorgia@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../script/burger.js"></script>
+    <script src="../script/header-scroll.js"></script>
+    <script src="../script/translation.js"></script>
+  </body>
 </html>

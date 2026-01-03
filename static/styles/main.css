@@ -1,58 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
-/* main page / section 1*/
-.hero-section{
-    text-align: center;
-    width: 100%;
-    height: 100vh;
+/* ===============================
+   RESET / GENERAL
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ===============================
+   HERO SECTION (VIDEO → IMAGE)
+================================ */
+.hero-section {
     position: relative;
+    width: 100%;
+    height: 80svh;
+    max-height: 900px;
+    overflow: hidden;
+    background: #000;
 }
 
-.hero-section video{
+/* VIDEO STYLING */
+.hero-section video {
+    position: absolute;
+    inset: 0;
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    /* top: 0;
-    left: 0; */
-    max-height: 600px;
+    object-position: center top;
+    display: block;
+    transition: opacity 0.8s ease-in-out;
+    z-index: 1;
+    opacity: 1;
 }
 
-/* section 2 */
-
-section .section-container {
+/* IMAGE LAYER (FALLBACK FOR MOBILE) */
+.hero-section img.hero-image {
+    position: absolute;
+    inset: 0;
     width: 100%;
+    height: 100%;
+    object-fit: contain; /* prevents cropping */
+    object-position: center;
+    display: block;
+    transition: opacity 0.8s ease-in-out;
+    z-index: 0;
+    opacity: 0;
+    background-color: #ffffff; 
+}
+
+/* ===============================
+   SECTION CONTAINER / HEADINGS
+================================ */
+.section-container {
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .section-container h3 {
     font-size: 40px;
     font-family: "Montserrat", serif;
-    color: #444444;
+    color: #444;
     font-weight: 600;
-    text-align: center;
-    margin: 50px 0;
+    margin-bottom: 40px;
 }
 
+/* ===============================
+   DESTINATION GRID
+================================ */
 .destination-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px;
-    padding: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 20px;
 }
 
 .destination-box {
     position: relative;
     text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .destination-box img {
     width: 100%;
-    max-width: 800px;
     height: 250px;
     object-fit: cover;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
 }
 
 .destination-box img:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
 .name {
@@ -65,28 +122,92 @@ section .section-container {
     font-size: 20px;
     font-weight: 400;
     font-family: "Roboto", serif;
-    color: #333333;
+    color: #333;
     margin-top: 15px;
 }
 
-/* Responsive Grid for Devices */    
-/* iPads (9th & 10th gen), iPad Pro 11" */
+/* ===============================
+   RESPONSIVE HERO SECTION
+================================ */
+@media (max-width: 768px) {
+    .hero-section {
+
+        height: auto;
+        aspect-ratio: 16 / 9; 
+    }
+
+    /* fade out video, fade in image */
+    .hero-section video {
+        opacity: 0;
+        pointer-events: none;
+        object-position: center center;
+    }
+
+    .hero-section img.hero-image {
+        opacity: 1;
+    }
+
+    .section-container h3 {
+        font-size: 32px;
+    }
+
+    .destination-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 30px;
+    }
+}
+
+/* ===============================
+   RESPONSIVE DESTINATION GRID
+================================ */
+
+/* Tablets */
 @media (max-width: 1024px) {
     .destination-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+    .section-container h3 {
+        font-size: 36px;
     }
 }
 
-/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
+/* Small tablets / large phones */
 @media (max-width: 768px) {
     .destination-grid {
-      grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .destination-box img {
+        height: 200px;
+    }
+    .section-container h3 {
+        font-size: 32px;
+    }
+    .name h4 {
+        font-size: 18px;
     }
 }
 
-/* Small mobile screens */
+/* Mobile phones */
 @media (max-width: 480px) {
     .destination-grid {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .destination-box img {
+        height: 180px;
+    }
+    .section-container {
+        padding: 40px 15px;
+    }
+    .section-container h3 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .name h4 {
+        font-size: 16px;
+        margin-top: 10px;
     }
 }
