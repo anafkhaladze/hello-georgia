@@ -1,583 +1,639 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-.secondary-nav{
-    display: flex;
-    align-items: center;
+.secondary-nav {
+  display: flex;
+  align-items: center;
 }
 
 .secondary-nav nav {
-    display: flex;
-    justify-content: flex-start;
-    margin: 30px;
-    flex-grow: 1;
-    width: 100%;
-    top: 0;
-    z-index: 10;
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px;
+  flex-grow: 1;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
-  
+
 .secondary-nav nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 10px 20px;
 }
-  
+
 .secondary-nav nav ul li {
-    margin: 0 15px;
+  margin: 0;
+  white-space: nowrap;
 }
-  
+
 .secondary-nav nav ul li a {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Playfair Display", serif;
-    color: #333333;
-    text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  text-decoration: none;
+  padding: 6px 8px;
+  display: inline-block;
 }
 
-.secondary-nav nav ul li a:hover{
-    color: #713B1F;
+.secondary-nav nav ul li a:hover {
+  color: #713b1f;
 }
-
 
 /* about */
-#ABOUT h3{
-    font-size: 25px;
-    font-weight: 600;
-    margin: 25px;
-    margin-top: 50px;
+#ABOUT h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 25px;
+  margin-top: 50px;
 }
 
-#ABOUT h5{
-    font-size: 20px;
-    background-color: #713B1F;
-    width: 700px;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    margin: 25px;
-    margin-top: 50px;
+#ABOUT h5 {
+  font-size: 20px;
+  background-color: #713b1f;
+  width: 700px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin: 25px;
+  margin-top: 50px;
 }
 
-#ABOUT h5:hover{
-    background-color: #B7723B;
+#ABOUT h5:hover {
+  background-color: #b7723b;
 }
 
-#ABOUT p{
-    font-size: 18px;
-    font-weight: 200;
-    margin: 25px;
+#ABOUT p {
+  font-size: 18px;
+  font-weight: 200;
+  margin: 25px;
 }
 
 /* DESTIONATIONS */
-#DESTINATIONS{
-    margin: 20px;
+#DESTINATIONS {
+  margin: 20px;
 }
 
-#DESTINATIONS h2{
-    font-size: 40px;
-    font-weight: 600;
-    margin: 30px;
-    color: #111111;
+#DESTINATIONS h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 30px;
+  color: #111111;
 }
 
-.destinations h2{
-    font-size: 50px;
-    font-weight: 800;
-    font-family: "Playfair Display", serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 10px;
+.destinations h2 {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 60px;
-    margin-bottom: 70px;
-    margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 60px;
+  margin-bottom: 70px;
+  margin: 50px;
 }
-  
+
 .nature {
-    background-color: #f0e6d2;
-    border: 2px solid #d4c2a8;
-    box-shadow: 4px 4px 10px #a59a8d;
-    margin: 20px;
-    width: 90%;
-    text-align: center;
+  background-color: #f0e6d2;
+  border: 2px solid #d4c2a8;
+  box-shadow: 4px 4px 10px #a59a8d;
+  margin: 20px;
+  width: 90%;
+  text-align: center;
 }
 
-.nature img{
-    width: 80%;
-    height: 150px;
-    margin-top: 20px;
-    border-radius: 8px;
+.nature img {
+  width: 80%;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
-.nature p{
-    margin: 20px;
-    font-size: 20px;
-    color: #111111;
-}
-
-/* Responsive Grid for Devices */    
-/* iPads (9th & 10th gen), iPad Pro 11" */
-@media (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
-@media (max-width: 768px) {
-    .grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Small mobile screens */
-@media (max-width: 480px) {
-    .grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
+.nature p {
+  margin: 20px;
+  font-size: 20px;
+  color: #111111;
 }
 
 /* pricing */
-#PRICING{
-    margin: 25px;
+#PRICING {
+  margin: 25px;
 }
 
 #PRICING h3 {
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
 }
 
 #PRICING p {
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 1.6;
-    padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.6;
+  padding-bottom: 10px;
 }
 
 #PRICING ul {
-    list-style-type: disc;
-    padding-left: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 #PRICING li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* map */
-#MAP h4{
-    font-size: 30px;
-    font-weight: 600;
-    margin: 30px;
+#MAP h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px;
 }
 
-#MAP iframe{
-    width: 100%;
-    height: 600px;
+#MAP iframe {
+  width: 100%;
+  height: 600px;
 }
 
 /* questions */
-#QUESTIONS{
-    margin: 25px;
+#QUESTIONS {
+  margin: 25px;
 }
 
-#QUESTIONS h3{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+#QUESTIONS h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 #QUESTIONS .faq {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
-  
+
 #QUESTIONS .question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
 }
-  
+
 .answer {
-    display: none;
-    margin-top: 5px;
+  display: none;
+  margin-top: 5px;
 }
 
 /* reviews */
-#REVIEWS{
-    margin: 25px;
+#REVIEWS {
+  margin: 25px;
 }
 
-.review h3{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+.review h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
-.review{
-    display: flex;
-    justify-content: space-between;
-    margin: 25px;
+.review {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
 }
 
-.review h4{
-    background-color: #713B1F;
-    font-size: 18px;
-    width: 200px;
-    height: 30px;
-    text-align: center;
-    color: white;
-    border-radius: 10px;
+.review h4 {
+  background-color: #713b1f;
+  font-size: 18px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
 }
 
-.review h4:hover{
-    background-color: #ffffff;
-    border: 4px solid #B7723B;
-    border-radius: 10px;
-    color: #713B1F;
+.review h4:hover {
+  background-color: #ffffff;
+  border: 4px solid #b7723b;
+  border-radius: 10px;
+  color: #713b1f;
 }
 
 .review-card {
-    background: white;
-    border-radius: 12px;
-    padding: 25px;
-    margin-bottom: 30px;
-    max-width: 500px;
-    border: 0.5px solid #333333;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  max-width: 500px;
+  border: 0.5px solid #333333;
 }
 
 .review-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .profile {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .user-details {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .username {
-    font-weight: bold;
-    font-size: 16px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .stars {
-    display: flex;
-    gap: 3px;
-    margin-top: 5px;
+  display: flex;
+  gap: 3px;
+  margin-top: 5px;
 }
 
 .review-star {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .review-text {
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
-    margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  margin-top: 10px;
 }
 
 /* no question styling */
 .question-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #f8f9fa;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    max-width: 800px;
-    margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 .login-message {
-    font-size: 16px;
-    color: #333333;
+  font-size: 16px;
+  color: #333333;
 }
 
 .ask-button {
-    background-color: #713B1F;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
+  background-color: #713b1f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .ask-button:hover {
-    background-color: #B7723B;
+  background-color: #b7723b;
 }
 
 /* no review   styling*/
 .review-section {
-    text-align: center;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
 }
 
 .review-icon {
-    width: 60px;
-    margin-bottom: 15px;
+  width: 60px;
+  margin-bottom: 15px;
 }
 
 .review-section h2 {
-    font-size: 22px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .review-section p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .review-btn {
-    background-color: #713B1F;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s ease;
+  background-color: #713b1f;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .review-btn:hover {
-    background-color: #B7723B;
+  background-color: #b7723b;
 }
 
 /* hotels */
-#HOTELS{
-    margin: 20px;
+#HOTELS {
+  margin: 20px;
 }
 
-#HOTELS h2{
-font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+#HOTELS h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 .hotels-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 60px;
-    margin-bottom: 70px;
-    margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 60px;
+  margin-bottom: 70px;
+  margin: 50px;
 }
-  
+
 .hotels {
-    background-color: #f0e6d2;
-    border: 2px solid #ecdbba;
-    border-radius: 10px;
-    margin: 20px;
-    width: 90%;
-    text-align: center;
+  background-color: #f0e6d2;
+  border: 2px solid #ecdbba;
+  border-radius: 10px;
+  margin: 20px;
+  width: 90%;
+  text-align: center;
 }
 
-.hotels img{
-    width: 80%;
-    height: 150px;
-    margin-top: 20px;
-    border-radius: 5px;
+.hotels img {
+  width: 80%;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
-.hotels p{
-    margin: 20px;
-    font-size: 20px;
-    color: #111111;
-}
-
-/* Responsive Grid for Devices */    
-/* iPads (9th & 10th gen), iPad Pro 11" */
-@media (max-width: 1024px) {
-    .hotels-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
-@media (max-width: 768px) {
-    .hotels-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Small mobile screens */
-@media (max-width: 480px) {
-    .hotels-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
+.hotels p {
+  margin: 20px;
+  font-size: 20px;
+  color: #111111;
 }
 
 /* MUNICIPALITIES */
-#MUNICIPALITIES{
-    margin: 20px;
+#MUNICIPALITIES {
+  margin: 20px;
 }
 
-#MUNICIPALITIES h2{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+#MUNICIPALITIES h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .municipalities-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 60px;
-    margin-bottom: 70px;
-    margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 60px;
+  margin-bottom: 70px;
+  margin: 50px;
 }
-  
+
 .municipalities {
-    position: relative;
-    background: #f0e6d2;
-    border-radius: 12px;
-    padding: 15px;
-    text-align: center;
+  position: relative;
+  background: #f0e6d2;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
 }
 
 /* Municipality Image */
 .municipalitie {
-    width: 90%;
-    height: 150px;
-    margin-top: 10px;
-    border-radius: 5px;
+  width: 90%;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 /* Municipality gerbi */
 .gerbi {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80px;
-    height: 90px;
-    background: white;
-    border-radius: 50%;
-    padding: 5px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 90px;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 /* Municipality Name */
 .municipalities p {
-    font-size: 18px;
-    color: #713B1F;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-/* Responsive Grid for Devices */    
-/* iPads (9th & 10th gen), iPad Pro 11" */
-@media (max-width: 1024px) {
-    .municipalities-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
-@media (max-width: 768px) {
-    .municipalities-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Small mobile screens */
-@media (max-width: 480px) {
-    .municipalities-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
+  font-size: 18px;
+  color: #713b1f;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 /* tours */
-#TOURS{
-    margin: 20px;
+#TOURS {
+  margin: 20px;
 }
 
-#TOURS h2{
-font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+#TOURS h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 .tours-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 60px;
-    margin-bottom: 70px;
-    margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 60px;
+  margin-bottom: 70px;
+  margin: 50px;
 }
-  
+
 .tour {
-    background-color: #f0e6d2;
-    border: 2px solid #ecdbba;
-    margin: 20px;
+  background-color: #f0e6d2;
+  border: 2px solid #ecdbba;
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.tour img {
+  width: 80%;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.tour p {
+  margin: 20px;
+  font-size: 20px;
+  color: #111111;
+}
+
+@media (max-width: 1200px) {
+  #DESTINATIONS .grid,
+  #HOTELS .hotels-grid,
+  #MUNICIPALITIES .municipalities-grid,
+  #TOURS .tours-grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+    column-gap: 30px;
+    row-gap: 40px;
+  }
+
+  #ABOUT h5 {
     width: 90%;
-    text-align: center;
+  }
 }
 
-.tour img{
-    width: 80%;
-    height: 150px;
-    margin-top: 20px;
-    border-radius: 8px;
-}
-
-.tour p{
+@media (max-width: 900px) {
+  #DESTINATIONS .grid,
+  #HOTELS .hotels-grid,
+  #MUNICIPALITIES .municipalities-grid,
+  #TOURS .tours-grid {
+    grid-template-columns: repeat(2, 1fr);
     margin: 20px;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  #ABOUT h3,
+  #PRICING h3,
+  #QUESTIONS h3,
+  #REVIEWS .review h3,
+  #HOTELS h2,
+  #MUNICIPALITIES h2,
+  #TOURS h2,
+  #DESTINATIONS h2 {
     font-size: 20px;
-    color: #111111;
+  }
+
+  #ABOUT h5 {
+    width: 100%;
+    font-size: 18px;
+    margin: 20px auto;
+  }
+
+  .nature img,
+  .hotels img,
+  .tour img,
+  .municipalitie {
+    height: 130px;
+    width: 80%;
+  }
+
+  #REVIEWS .review {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #REVIEWS .review h4 {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+  }
 }
 
-/* Responsive Grid for Devices */    
-/* iPads (9th & 10th gen), iPad Pro 11" */
-@media (max-width: 1024px) {
-    .tours-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+@media (max-width: 600px) {
+  #DESTINATIONS .grid,
+  #HOTELS .hotels-grid,
+  #MUNICIPALITIES .municipalities-grid,
+  #TOURS .tours-grid {
+    grid-template-columns: 1fr;
+    margin: 15px;
+    column-gap: 15px;
+    row-gap: 20px;
+  }
 
-/* iPhone 12, 13, 14, 15 Pro Max, Samsung Galaxy S21, S22, S23 */
-@media (max-width: 768px) {
-    .tours-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-}
+  .secondary-nav nav ul li a {
+    font-size: 14px;
+    padding: 5px 6px;
+  }
 
-/* Small mobile screens */
-@media (max-width: 480px) {
-    .tours-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
-}
+  .secondary-nav nav ul li a:hover {
+    color: #713b1f;
+  }
 
+  #ABOUT h3,
+  #PRICING h3,
+  #QUESTIONS h3,
+  #REVIEWS .review h3,
+  #HOTELS h2,
+  #MUNICIPALITIES h2,
+  #TOURS h2,
+  #DESTINATIONS h2 {
+    font-size: 18px;
+    margin: 15px 10px;
+  }
+
+  #ABOUT h5 {
+    font-size: 16px;
+  }
+
+  #ABOUT p,
+  #PRICING p,
+  #QUESTIONS .faq,
+  #REVIEWS .review-text {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .nature img,
+  .hotels img,
+  .tour img,
+  .municipalitie {
+    height: auto;
+    width: 85%;
+  }
+
+  #MAP iframe {
+    height: 300px;
+  }
+
+  #REVIEWS .review {
+    margin: 10px 5px;
+  }
+
+  #REVIEWS .review-card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .question-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ask-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
