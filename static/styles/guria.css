@@ -9,15 +9,6 @@ body{
     box-sizing: border-box;
 }
 
-.guria-hero-text{
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    color: aliceblue;
-    transform: translate(-150%, -50%);
-    font-size: 90px;
-}
-
 /* guria destinations-bakhmaro */
 .bakhmaro-hero-text{
     position: absolute;
@@ -151,4 +142,63 @@ body{
     color: aliceblue;
     transform: translate(-150%, -50%);
     font-size: 90px;
+}
+
+/* Tablets & small laptops */
+@media (max-width: 900px) {
+
+  /* Reduce font size */
+  .bakhmaro-hero-text,
+  .nabeghlavi-hero-text,
+  .ureki-hero-text {
+    font-size: 50px;
+  }
+
+  .gomis-mta-hero-text h6,
+  .lake-jaji-hero-text h6,
+  .chinchao-lake-hero-text h6,
+  .atchi-church-hero-text h6,
+  .likhauri-church-hero-text h6,
+  .erketi-church-hero-text h6,
+  .shemokmedi-church-hero-text h6 {
+    font-size: 50px;
+  }
+
+  /* Slight position adjustments */
+  .bakhmaro-hero-text {
+    left: 60%;
+  }
+
+  .nabeghlavi-hero-text {
+    left: 70%;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+
+  /* Further reduce font size */
+  .bakhmaro-hero-text,
+  .nabeghlavi-hero-text,
+  .ureki-hero-text {
+    font-size: 30px;
+  }
+
+  .gomis-mta-hero-text h6,
+  .lake-jaji-hero-text h6,
+  .chinchao-lake-hero-text h6,
+  .atchi-church-hero-text h6,
+  .likhauri-church-hero-text h6,
+  .erketi-church-hero-text h6,
+  .shemokmedi-church-hero-text h6 {
+    font-size: 30px;
+  }
+
+  /* Center text better on small screens */
+  .bakhmaro-hero-text,
+  .nabeghlavi-hero-text,
+  .ureki-hero-text {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

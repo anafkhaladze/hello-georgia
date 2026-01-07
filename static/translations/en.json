@@ -37,7 +37,6 @@
   "submit": "Sign Up",
 
   "_comment2": "adjara",
-  "page_title": "Adjara",
   "adjara_title": "ADJARA",
 
   "about_nav": "ABOUT",
@@ -91,5 +90,41 @@
 
   "reviews_heading": "Write review and rate destination",
   "reviews_text": "Help other travelers use your experience. Review this destination, share your thoughts, impressions, pros and cons. Let's make traveling easier than ever.",
-  "write_review_btn": "WRITE A REVIEW"
+  "write_review_btn": "WRITE A REVIEW",
+
+  "guria_title": "GURIA",
+  "guria_about_heading": "About Guria",
+  "guria_about_text": "Guria region is situated in western Georgia and it includes historical-geographic province, the area of Guria. It has an ancient history and a beautiful, hidden nature in green. Guria is impressive and interesting with its cool forests, mineral waters, alpine meadows, cultural sites and sandy beaches for the people having different tastes and interests. You can go above the clouds, in the frosty mountains from the sunny seaside.",
+
+  "guria_history_text": "Guria, inhabited since the Paleolithic era, was part of Colkha and later Egrisi. First mentioned in the 8th century, it became a feudal duchy and later an independent principality in the 15th century. Battling the Ottomans and Imereti, it fell under Ottoman control in the 17th century. The principality lasted until the mid-19th century, suffering in the 1877-1878 Russian-Ottoman war. Today, Guria is an administrative region of Georgia.",
+
+  "guria_culture_text": "Guria is known for its rich culture, folklore, and hospitality. Key celebrations include Feritsvaleba with horse racing in Bakhmaro and the Easter tradition of Lelo. Gurian polyphony and dances like “Farcakuku” are unique. The cuisine features vegetarian and poultry dishes, Adesa wine, and the famous Guruli pie, a Christmas specialty now popular across Georgia.",
+
+  "guria_geography_text": "Guria, located on the Black Sea coast, borders Samegrelo-Zemo Svaneti, Adjara, Imereti, and Samtskhe-Javakheti. Its center is Ozurgeti, and it's rich in rivers and lakes, including Sufsa, Natanebi, Imnati, and Japana. The region has a humid subtropical climate on the coast and a mild mountain climate, with an average annual temperature of 12-14°C.",
+
+  "guria_bakhmaro": "Bakhmaro",
+  "guria_gomis_mta": "Gomi Mountain",
+  "guria_lake_jaji": "Lake Jaji",
+  "guria_chinchao_lake": "Chinchao Lake",
+
+  "guria_atchi_church": "Atchi Church",
+  "guria_likhauri_church": "Likhauri Church",
+  "guria_erketi_church": "Erketi Church",
+  "guria_shemokmedi_church": "Shemokmedi Church",
+
+  "resorts_heading": "Resorts",
+  "guria_nabeghlavi": "Nabeghlavi",
+  "guria_ureki": "Ureki",
+
+  "tours_heading": "TOURS",
+  "guria_tour_gomis_mta": "Gomis Mta - Dendrological Park",
+  "guria_tour_boat_ride": "Boat ride on Paliastom Lake",
+  "guria_tour_horse_riding": "Horse riding tour to Jaji lake",
+
+  "guria_chokhatauri": "Chokhatauri",
+  "guria_lanchkhuti": "Lanchkhuti",
+  "guria_ozurgeti": "Ozurgeti",
+
+  "faq_login_message": "Please login to ask a question",
+  "faq_ask_btn": "+ ASK A QUESTION"
 }

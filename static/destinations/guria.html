@@ -1,373 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/guria.css">
-    <link rel="stylesheet" href="../styles/slider.css">
-    <link rel="stylesheet" href="../styles/smooth-nav.css">
-    <title>Guria</title>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="inner-header">
-        <div class="logo">
-          <a href="../../index.html">
-            <img src="../images/logo.png" alt="logo">
-          </a>
-        </div>
-        <nav id="nav-menu">
-          <ul>
-            <li><a href="../../index.html">HOME</a></li>
-            
-            <li>
-                <a href="../pages/login.html">SIGN UP</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="burger">
-          <div></div>
-          <div></div>
-          <div></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/guria.css" />
+    <link rel="stylesheet" href="../styles/slider.css" />
+    <link rel="stylesheet" href="../styles/smooth-nav.css" />
+    <title data-key="guria_title">GURIA</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="inner-header">
+          <div class="logo">
+            <a href="../../index.html">
+              <img src="../images/logo.png" alt="logo" />
+            </a>
+          </div>
+
+          <nav id="nav-menu">
+            <ul>
+              <li class="active">
+                <a href="../../index.html" data-key="guria_home_nav">HOME</a>
+              </li>
+              <li>
+                <a href="../pages/login.html" data-key="guria_signup_nav">SIGN UP</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="language-switcher">
+            <button onclick="setLanguage('en')" data-key="guria_en_btn">EN</button>
+            <button onclick="setLanguage('ka')" data-key="guria_ka_btn">KA</button>
+          </div>
+
+          <button id="burger" aria-label="Toggle menu" aria-expanded="false">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
     <main>
-    <section>
+      <section>
         <div class="slider-container">
           <div class="slider">
-            <img
-              src="../images/guria/guria1.jpg"
-              alt="first slide"
-              class="slide" />
-            <img
-              src="../images/guria/guria2.jpg"
-              alt="second slide"
-              class="slide" />
-            <img
-              src="../images/guria/guria3.jpg"
-              alt="third slide"
-              class="slide" />
-            <img
-              src="../images/guria/guria4.jpg"
-              alt="fourth slide"
-              class="slide" />
-            <img
-              src="../images/guria/guria5.jpg"
-              alt="fifth slide"
-              class="slide" />
-            <img
-              src="../images/guria/guria6.jpg" 
-              alt="six slide"
-              class="slide">
+            <img src="../images/guria/guria1.jpg" alt="first slide" class="slide" />
+            <img src="../images/guria/guria2.jpg" alt="second slide" class="slide" />
+            <img src="../images/guria/guria3.jpg" alt="third slide" class="slide" />
+            <img src="../images/guria/guria4.jpg" alt="fourth slide" class="slide" />
+            <img src="../images/guria/guria5.jpg" alt="fifth slide" class="slide" />
+            <img src="../images/guria/guria6.jpg" alt="sixth slide" class="slide" />
           </div>
-          <button class="prev" onclick="prevSlide()">&#10094;</button>
-          <button class="next" onclick="nextSlide()">&#10095;</button>
+
+          <div class="hero-text">
+            <h6 data-key="guria_title">GURIA</h6>
+          </div>
+
+          <button class="prev" onclick="prevSlide()" data-key="guria_prev">&#10094;</button>
+          <button class="next" onclick="nextSlide()" data-key="guria_next">&#10095;</button>
         </div>
 
-          <div class="guria-hero-text">
-              <h6>Guria</h6>
-          </div>
-
-          <div class="secondary-nav">
-            <nav>
-              <ul>
-                <li>
-                    <a href="#ABOUT">ABOUT</a>
-                </li>
-                <li>
-                  <a href="#DESTINATIONS">DESTINATIONS</a>
-                </li>
-                <li>
-                    <a href="#TOURS">TOURS</a>
-                </li>
-                <li>
-                    <a href="#MUNICIPALITIES">MUNICIPALITIES</a>
-                </li>
-                <li>
-                  <a href="#MAP">MAP</a>
-                </li>
-                <li>
-                  <a href="#QUESTIONS">QUESTIONS</a>
-                </li>
-                <li>
-                  <a href="#REVIEWS">REVIEWS</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+        <div class="secondary-nav">
+          <nav>
+            <ul>
+              <li><a href="#ABOUT" data-key="about_nav">ABOUT</a></li>
+              <li><a href="#DESTINATIONS" data-key="destinations_nav">DESTINATIONS</a></li>
+              <li><a href="#TOURS" data-key="tours">TOURS</a></li>
+              <li><a href="#MUNICIPALITIES" data-key="municipalities_nav">MUNICIPALITIES</a></li>
+              <li><a href="#MAP" data-key="map_nav">MAP</a></li>
+              <li><a href="#QUESTIONS" data-key="questions_nav">QUESTIONS</a></li>
+              <li><a href="#REVIEWS" data-key="reviews_nav">REVIEWS</a></li>
+            </ul>
+          </nav>
+        </div>
       </section>
 
-      <!-- about guria -->
-
+      <!-- About Guria -->
       <section>
         <div id="ABOUT">
-            <h3>About Guria</h3>
-            <p>Guria region is situated in western Georgia and it includes historical-geographic province, 
-            the area of Guria. It has an ancient history and a beautiful, hidden nature in green. 
-            Guria is impressive and interesting with its cool forests, mineral waters, 
-            alpine meadows, cultural sites and sandy beaches for the people having different tastes and interests. 
-            You can go above the clouds, in the frosty mountains from the sunny seaside.</p>
+          <h3 data-key="guria_about_heading">About Guria</h3>
+          <p data-key="guria_about_text">
+            Guria region is situated in western Georgia and it includes historical-geographic province, the area of Guria. It has an ancient history and a beautiful, hidden nature in green. Guria is impressive and interesting with its cool forests, mineral waters, alpine meadows, cultural sites and sandy beaches for the people having different tastes and interests. You can go above the clouds, in the frosty mountains from the sunny seaside.
+          </p>
 
-            <!-- history -->
-            <h3>History</h3>
-            <p>Guria, inhabited since the Paleolithic era, was part of Colkha and later Egrisi. 
-            First mentioned in the 8th century, it became a feudal duchy and later an ndependenti principality in the 15th century. Battling the Ottomans and Imereti, 
-            it fell under Ottoman control in the 17th century. The principality lasted until the mid-19th century, suffering in the 1877-1878 Russian-Ottoman war. 
-            Today, Guria is an administrative region of Georgia.</p>
+          <h3 data-key="history_heading">History</h3>
+          <p data-key="guria_history_text">
+            Guria, inhabited since the Paleolithic era, was part of Colkha and later Egrisi. First mentioned in the 8th century, it became a feudal duchy and later an independent principality in the 15th century. Battling the Ottomans and Imereti, it fell under Ottoman control in the 17th century. The principality lasted until the mid-19th century, suffering in the 1877-1878 Russian-Ottoman war. Today, Guria is an administrative region of Georgia.
+          </p>
 
-            <!-- culture -->
-            <h3>Culture</h3>
-            <p>Guria is known for its rich culture, folklore, and hospitality. Key celebrations include Feritsvaleba with horse racing in Bakhmaro and the Easter tradition of Lelo. 
-            Gurian polyphony and dances like “Farcakuku” are unique. The cuisine features vegetarian and poultry dishes, Adesa wine, and the famous Guruli pie, 
-            a Christmas specialty now popular across Georgia.</p>
+          <h3 data-key="culture_heading">Culture</h3>
+          <p data-key="guria_culture_text">
+            Guria is known for its rich culture, folklore, and hospitality. Key celebrations include Feritsvaleba with horse racing in Bakhmaro and the Easter tradition of Lelo. Gurian polyphony and dances like “Farcakuku” are unique. The cuisine features vegetarian and poultry dishes, Adesa wine, and the famous Guruli pie, a Christmas specialty now popular across Georgia.
+          </p>
 
-            <!-- geography -->
-            <h3>Geography</h3>
-            <p>Guria, located on the Black Sea coast, borders Samegrelo-Zemo Svaneti, Adjara, Imereti, and Samtskhe-Javakheti. Its center is Ozurgeti, 
-            and it's rich in rivers and lakes, including Sufsa, Natanebi, Imnati, and Japana. The region has a humid subtropical climate on the coast and a mild mountain climate, with an average annual temperature of 12-14°C.</p>
+          <h3 data-key="geography_heading">Geography</h3>
+          <p data-key="guria_geography_text">
+            Guria, located on the Black Sea coast, borders Samegrelo-Zemo Svaneti, Adjara, Imereti, and Samtskhe-Javakheti. Its center is Ozurgeti, and it's rich in rivers and lakes, including Sufsa, Natanebi, Imnati, and Japana. The region has a humid subtropical climate on the coast and a mild mountain climate, with an average annual temperature of 12-14°C.
+          </p>
         </div>
       </section>
-      <hr>
+      <hr />
 
-      <!-- destinations -->
+      <!-- Destinations -->
       <section id="DESTINATIONS">
-            <h2>Nature</h2>
-
-            <div class="grid">
-                <div class="nature">
-                    <a href="./guria.destinations/bakhmaro.html">
-                      <img src="../images/guria/bakhmaro.jpg" alt="bakhmaro">
-                      <p>Bakhmaro</p>
-                    </a>
-                </div>
-                <div class="nature">
-                    <a href="./guria.destinations/Gomi-Mountain.html">
-                      <img src="../images/guria/gomi-mountain.jpg" alt="gomi-mountain">
-                      <p>Gomi Mountain</p>
-                    </a>
-                </div>
-                <div class="nature">
-                    <a href="./guria.destinations/lake-jaji.html">
-                      <img src="../images/guria/lake-jaji.jpg" alt="lake-jaji">
-                      <p>Lake Jaji</p>
-                    </a>
-                </div>
-                <div class="nature">
-                    <a href="./guria.destinations/chinchao-lake.html">
-                      <img src="../images/guria/chinchao-lake.jpg" alt="chinchao-lake">
-                      <p>Chinchao Lake</p>
-                    </a>
-                </div>
-            </div>
-
-            <h2>Cultural monuments</h2>
-
-            <div class="grid">
-              <div class="nature">
-                <a href="./guria.destinations/atchi-church.html">
-                  <img src="../images/guria/atchi-church.jpg" alt="atchi-church">
-                  <p>Atchi Church</p>
-                </a>
-              </div>
-  
-              <div class="nature">
-                <a href="./guria.destinations/likhauri-church.html">
-                  <img src="../images/guria/Likhauri-Church.jpg" alt="Likhauri-Church">
-                  <p>Likhauri Church</p>
-                </a>
-              </div>
-  
-              <div class="nature">
-                <a href="./guria.destinations/erketi-church.html">
-                  <img src="../images/guria/erketi-church.jpg" alt="erketi-church">
-                  <p>Erketi Church</p>
-                </a>
-              </div>
-  
-              <div class="nature">
-                <a href="./guria.destinations/shemokmedi-church.html">
-                  <img src="../images/guria/shemokmedi-church.png" alt="shemokmedi-church">
-                  <p>Shemokmedi Church</p>
-                </a>
-              </div>
-            </div>
-
-            <h2>Resorts</h2>
-
-            <div class="grid">
-              <div class="nature">
-                <a href="./guria.destinations/bakhmaro.html">
-                  <img src="../images/guria/bakhmaro.jpg" alt="bakhmaro">
-                  <p>Bakhmaro</p>
-                </a>
-              </div>
-  
-              <div class="nature">
-                <a href="./guria.destinations/nabeghlavi.html">
-                  <img src="../images/guria/nabeghlavi.jpg" alt="nabeghlavi">
-                  <p>Nabeghlavi</p>
-                </a>
-              </div>
-  
-              <div class="nature">
-                <a href="./guria.destinations/Gomi-Mountain.html">
-                  <img src="../images/guria/gomi-mountain.jpg" alt="gomi-mountain">
-                  <p>Gomi Mountain</p>
-                </a>
-              </div>
-  
-              <div class="nature">
-                <a href="./guria.destinations/ureki.html">
-                  <img src="../images/guria/ureki.jpg" alt="ureki">
-                  <p>Ureki</p>
-                </a>
-              </div>
-            </div>
+        <h2 data-key="nature_heading">Nature</h2>
+        <div class="grid">
+          <div class="nature">
+            <a href="./guria.destinations/bakhmaro.html">
+              <img src="../images/guria/bakhmaro.jpg" alt="bakhmaro" />
+              <p data-key="guria_bakhmaro">Bakhmaro</p>
+            </a>
           </div>
-      </section>
-      <hr>
+          <div class="nature">
+            <a href="./guria.destinations/Gomi-Mountain.html">
+              <img src="../images/guria/gomi-mountain.jpg" alt="gomi-mountain" />
+              <p data-key="guria_gomis_mta">Gomi Mountain</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/lake-jaji.html">
+              <img src="../images/guria/lake-jaji.jpg" alt="lake-jaji" />
+              <p data-key="guria_lake_jaji">Lake Jaji</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/chinchao-lake.html">
+              <img src="../images/guria/chinchao-lake.jpg" alt="chinchao-lake" />
+              <p data-key="guria_chinchao_lake">Chinchao Lake</p>
+            </a>
+          </div>
+        </div>
 
-      <!-- tours -->
+        <h2 data-key="cultural_heading">Cultural monuments</h2>
+        <div class="grid">
+          <div class="nature">
+            <a href="./guria.destinations/atchi-church.html">
+              <img src="../images/guria/atchi-church.jpg" alt="atchi-church" />
+              <p data-key="guria_atchi_church">Atchi Church</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/likhauri-church.html">
+              <img src="../images/guria/Likhauri-Church.jpg" alt="Likhauri-Church" />
+              <p data-key="guria_likhauri_church">Likhauri Church</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/erketi-church.html">
+              <img src="../images/guria/erketi-church.jpg" alt="erketi-church" />
+              <p data-key="guria_erketi_church">Erketi Church</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/shemokmedi-church.html">
+              <img src="../images/guria/shemokmedi-church.png" alt="shemokmedi-church" />
+              <p data-key="guria_shemokmedi_church">Shemokmedi Church</p>
+            </a>
+          </div>
+        </div>
+
+        <h2 data-key="resorts_heading">Resorts</h2>
+        <div class="grid">
+          <div class="nature">
+            <a href="./guria.destinations/bakhmaro.html">
+              <img src="../images/guria/bakhmaro.jpg" alt="bakhmaro" />
+              <p data-key="guria_bakhmaro">Bakhmaro</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/nabeghlavi.html">
+              <img src="../images/guria/nabeghlavi.jpg" alt="nabeghlavi" />
+              <p data-key="guria_nabeghlavi">Nabeghlavi</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/Gomi-Mountain.html">
+              <img src="../images/guria/gomi-mountain.jpg" alt="gomi-mountain" />
+              <p data-key="guria_gomis_mta">Gomi Mountain</p>
+            </a>
+          </div>
+          <div class="nature">
+            <a href="./guria.destinations/ureki.html">
+              <img src="../images/guria/ureki.jpg" alt="ureki" />
+              <p data-key="guria_ureki">Ureki</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- Tours -->
       <section id="TOURS">
-        <h2>TOURS</h2>
-          <div class="tours-grid">
-            <div class="tour">
-              <img src="../images/guria/gomi-mountain.jpg" alt="tour1">
-              <p>Gomis Mta - Dendrological Park</p>
-            </div>
-    
-            <div class="tour">
-              <img src="../images/guria/Boat-ride-on-paliastom-lake.jpg" alt="tour2">
-              <p>Boat ride on Paliastom Lake</p>
-            </div>
-    
-            <div class="tour">
-              <img src="../images/guria/jaji-lake1.jpg" alt="tour3">
-              <p>Horse riding tour to Jaji lake</p>
-            </div>
-      </section>
-      <hr>
-
-      <section id="MUNICIPALITIES">
-        <h2>Municipalities</h2>
-          <div class="municipalities-grid">
-            <div class="municipalities">
-              <img src="../images/guria/chokhatauri.jpg" class="municipalitie" alt="chokhatauri">
-              <img src="../images/guria/choxatauri-gerbi.png" class="gerbi" alt="chokhatauri-gerbi">
-              <p>Chokhatauri</p>
-            </div>
-
-            <div class="municipalities">
-              <img src="../images/guria/Lanchkhuti.jpg" class="municipalitie" alt="Lanchkhuti">
-              <img src="../images/guria/Lanchkhuti-gerbi.png" class="gerbi" alt="Lanchkhuti-gerbi">
-              <p>Lanchkhuti</p>
-            </div>
-
-            <div class="municipalities">
-              <img src="../images/guria/ozurgeti.jpg" class="municipalitie" alt="ozurgeti">
-              <img src="../images/guria/ozurgeti-gerbi.png" class="gerbi" alt="ozurgeti-gerbi">
-              <p>Ozurgeti</p>
-            </div>
+        <h2 data-key="tours_heading">TOURS</h2>
+        <div class="tours-grid">
+          <div class="tour">
+            <img src="../images/guria/gomi-mountain.jpg" alt="tour1" />
+            <p data-key="guria_tour_gomis_mta">Gomis Mta - Dendrological Park</p>
           </div>
+          <div class="tour">
+            <img src="../images/guria/Boat-ride-on-paliastom-lake.jpg" alt="tour2" />
+            <p data-key="guria_tour_boat_ride">Boat ride on Paliastom Lake</p>
+          </div>
+          <div class="tour">
+            <img src="../images/guria/jaji-lake1.jpg" alt="tour3" />
+            <p data-key="guria_tour_horse_riding">Horse riding tour to Jaji lake</p>
+          </div>
+        </div>
       </section>
-      <hr>
+      <hr />
 
+      <!-- Municipalities -->
+      <section id="MUNICIPALITIES">
+        <h2 data-key="municipalities_heading">Municipalities</h2>
+        <div class="municipalities-grid">
+          <div class="municipalities">
+            <img src="../images/guria/chokhatauri.jpg" class="municipalitie" alt="chokhatauri" />
+            <img src="../images/guria/choxatauri-gerbi.png" class="gerbi" alt="chokhatauri-gerbi" />
+            <p data-key="guria_chokhatauri">Chokhatauri</p>
+          </div>
+          <div class="municipalities">
+            <img src="../images/guria/Lanchkhuti.jpg" class="municipalitie" alt="Lanchkhuti" />
+            <img src="../images/guria/Lanchkhuti-gerbi.png" class="gerbi" alt="Lanchkhuti-gerbi" />
+            <p data-key="guria_lanchkhuti">Lanchkhuti</p>
+          </div>
+          <div class="municipalities">
+            <img src="../images/guria/ozurgeti.jpg" class="municipalitie" alt="ozurgeti" />
+            <img src="../images/guria/ozurgeti-gerbi.png" class="gerbi" alt="ozurgeti-gerbi" />
+            <p data-key="guria_ozurgeti">Ozurgeti</p>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- Map -->
       <section id="MAP">
-        <h4>MAP</h4>
+        <h4 data-key="map_heading">MAP</h4>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379674.7001367233!2d41.86073141623991!3d41.9743309933567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405d0f773ccd4c3f%3A0x1dd7562fa7f27fd3!2z4YOS4YOj4YOg4YOY4YOY4YOhIOGDm-GDruGDkOGDoOGDlA!5e0!3m2!1ska!2sge!4v1741791178067!5m2!1ska!2sge"></iframe>
       </section>
-      <hr>
+      <hr />
 
+      <!-- Questions -->
       <section id="QUESTIONS">
-        <h3>QUESTIONS</h3>
+        <h3 data-key="faq_heading">QUESTIONS</h3>
         <div class="question-section">
-          <p class="login-message">Please login to ask a question</p>
-          <h4 class="ask-button">+ ASK A QUESTION</h4>
-        </div>  
+          <p class="login-message" data-key="faq_login_message">Please login to ask a question</p>
+          <h4 class="ask-button" data-key="faq_ask_btn">+ ASK A QUESTION</h4>
+        </div>
       </section>
-      <hr>
+      <hr />
 
+      <!-- Reviews -->
       <section id="REVIEWS">
         <div class="review-section">
-          <img src="../images/review.png" class="review-icon" alt="Review Icon">
-          <h2>Write review and rate destination</h2>
-          <p>
-              Help other travelers use your experience.<br>
-              Review this destination, share your thoughts, impressions, pros and cons.<br>
-              Let's make traveling easier than ever.
-          </p>
-          <h4 class="review-btn">WRITE A REVIEW</h4>
-        </div>        
+          <img src="../images/review.png" class="review-icon" alt="Review Icon" />
+          <h2 data-key="reviews_heading">Write review and rate destination</h2>
+          <p data-key="reviews_text">Help other travelers use your experience. Review this destination, share your thoughts, impressions, pros and cons. Let's make traveling easier than ever.</p>
+          <h4 class="review-btn" data-key="write_review_btn">WRITE A REVIEW</h4>
+        </div>
       </section>
     </main>
 
-
+    <!-- Footer -->
     <footer>
-        <div class="footer-box">
-            <div class="socials">
-                <h3>Socials</h3>
-              <a href="#">
-                <img src="../images/instagram.png" alt="instagram" />
-              </a>
-              <a href="#">
-                <img src="../images/facebook.png" alt="facebook" />
-              </a>
-              <a href="#">
-                <img
-                  src="../images/tik-tok.png"
-                  alt="tik-tok" />
-              </a>
-            </div>
+      <div class="footer-box">
+        <div class="socials">
+          <h3 data-key="socials">Socials</h3>
+          <a href="#"><img src="../images/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="../images/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="../images/tik-tok.png" alt="tik-tok" /></a>
+        </div>
 
-            <!-- tours -->
-          <div class="tours">
-            <h3>Tours</h3>
-            <ul>
-              <li>
-                <a href="#">Individual Tours</a>
-              </li>
-              <li>
-                <a href="#">Group Tours</a>
-              </li>
-              <li>
-                <a href="#">Events</a>
-              </li>
-            </ul>
-            </div>
+        <div class="tours">
+          <h3 data-key="tours">Tours</h3>
+          <ul>
+            <li>
+              <a href="#" data-key="individual_tours">Individual Tours</a>
+            </li>
+            <li><a href="#" data-key="group_tours">Group Tours</a></li>
+            <li><a href="#" data-key="events">Events</a></li>
+          </ul>
+        </div>
 
-            <!-- location -->
-            <div class="location">
-                <h3>Location</h3>
-              <ul>
-                <li>
-                  <a href="#">
-                    <img src="../images/location.png" alt="location" />
-                    Simon Janashia 26, Tbilisi
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="../images/phone.png" alt="phone" />
-                    +995 512 34 56 78
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="../images/mail.png" alt="email" />
-                    hellogeorgia@gmail.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-      </footer>
-      <script src="../script/script.js"></script>
-      <script src="../script/smooth-nav.js"></script>
-</body>
+        <div class="location">
+          <h3 data-key="location">Location</h3>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="../images/location.png" alt="location" />
+                <span data-key="address">Simon Janashia 26, Tbilisi</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../images/phone.png" alt="phone" />
+                <span data-key="phone">+995 512 34 56 78</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../images/mail.png" alt="email" />
+                <span data-key="email">hellogeorgia@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+    <script src="../script/smooth-nav.js"></script>
+    <script src="../script/burger.js"></script>
+    <script src="../script/translation.js"></script>
+  </body>
 </html>
